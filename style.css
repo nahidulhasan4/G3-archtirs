@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&family=Poppins:ital,wght@0,500;1,400;1,500&family=Work+Sans:wght@400;500&display=swap');
+/* commun style for full website  */
+body{
+  font-family: 'Poppins' sans-serif;
+}
+/* header section design here  */
+#header{
+    background: rgba(255, 144, 14, 0.1);
+    height: auto;
+}
+/* website container div design here  */
+.container{
+   width: 100%;
+   justify-content: center;
+ 
+}
+.menu-iteam{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.logo{
+    font-size: 4vw;
+}
+.menu-nav{
+    display: flex;
+}
+.menu-nav li{
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    
+}
+.menu-nav li a{
+        text-decoration: none;
+        color: #000;
+}
+.info{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.mian-banner{
+ text-align: center;
+}
+.banner{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.main-title{
+  font-size: 3vw;
+}
+.description{
+   font-size: 1.5vw;
+   justify-content: center;
+}
+.paimary{
+ padding: 10px 14px;
+ border-radius: 5px;
+ border: none;
+ background: #FF900E;
+ color: #ffff;
+
+}
+/* header section end here  */
+/* main section start here  */
+#main{
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.future-box{
+    display: flex;
+    grid-column-gap: 20px;
+    align-items: center;
+    
+}
+.future-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.0vw;
+}
+.future-img img{
+    width: 100%;
+}
+.futures-title{
+    font-size: 3vw;
+    color: #727272;
+}
+.first-span{
+    color: #131313;
+}
+
+.secound-span{
+    color: #FF900E;
+}
+/* futures container end here  */
+/*  futures planing container star her  */
+.planig-box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 40px;
+}
+.planing-info{
+    width: 90%;
+
+}
+.planing-title{
+  font-size: 2vw;
+}
+.mainplan-title{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.plan-span{
+    width: 5px;
+    height: 63px;
+    left: 240px;
+    top: 2284px;
+    background: #FF900E;
+}
+/* .planing-title{
+
+}
+.planing-caption{
+
+}
+.planing-imgbtn{
+
+} */
+.img-box{
+    background-image: url('images/architect.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    
+}
+/* .plan-boxing{
+    
+} */
+.plan-box{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.boxplan{
+    padding: 10px ;
+}
+/* .plan-title{
+
+}
+.plan-caption{
+  
+} */
+.secound {
+    line-height: 23px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 2.5vw;
+    position: absolute;
+    bottom: -33px;
+    left: -32px;
+}
+
+.btnspan{
+    font-size: 20px;
+}
+/* some facts section here  */
+.same-fact{
+    width: 580px;
+    line-height: 30px;
+    margin-top: 120px;
+}
+.fact-tile{
+    font-size: 3vw;
+    margin-bottom: 0px;
+}
+.fact-caption{
+    font-size: 1.5vw;
+}
+.same-factbox{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 40px;
+    left: 80px;
+}
+.factbox{
+   border: 2px solid #FF900E;
+   border-radius: 5px;
+   padding: 20px;
+   text-align: center;
+}
+.facts-title{
+    font-size: 3vw;
+    margin: 20px;
+}
+/* sponsser section style here */
+
+.Sponspors{
+    margin-top: 50px;
+    padding: 10px;
+}
+.sponsbox{
+    margin-top: 40px;
+    text-align: center;
+}
+.spon-title{
+    font-size: 3vw;
+}
+/* .sponscaption{
+
+} */
+.img-sponsbox{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+/* footer section  */
+.footer-meeasge{
+   margin-top: 40px;
+   margin-left: 10%;
+   margin-right: 10%;
+   text-align: center;
+   margin-bottom: 80px;
+   padding: 20px;
+   background-color: #FFF4E7;
+   border-radius: 5px;
+}
+
+
+
+
+
+
+@media screen and (max-width:576px){
+
+    .menu-nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-nav li{
+      
+        padding: 5px 10px;
+        font-size: 10px;
+        
+    }
+    .future-box{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+    .future-description{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .planig-box{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+      }
+      .fact-tile{
+        font-size: 30px;
+      }
+      .img-box{
+        background-image: url('images/architect.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        width: 400px;
+        
+    }
+    .same-factbox{
+    display: flex;
+    flex-direction: column;
+    }
+    .same-facts{
+       padding-top: 20px;
+       margin-top: 50px;
+    }
+    .secound{
+        position: absolute;
+        bottom: -110px;
+        left: 100px;
+        font-size: 40px;
+        
+    }
+    .spon-title{
+        font-size: 30px;
+    }
+    .img-sponsbox{
+       grid-template-columns: repeat(2, 1fr);
+       grid-row-gap: 30px;
+    }
+}
